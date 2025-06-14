@@ -1,0 +1,87 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 500px;
+}
+.intro h1 {
+  font-size: 8.5rem;
+}
+p{
+  font-size: 2rem;
+}
+#about{
+  font-size: 4rem;
+}
+button {
+  font-size: medium;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+section {
+  padding: 2rem;
+}
+section h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+h3{
+  font-size: 2rem;
+}
+li{
+  font-size: 1rem;
+}
+.content, .bg-group, .cert-list, .project-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+input, textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+#event{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 1000px;
+}
+#form{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 510px;
+}
