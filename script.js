@@ -4,7 +4,7 @@ const form = document.getElementById("contactForm");
   form.addEventListener("submit", async function (e) {
     e.preventDefault();
     const data = new FormData(form);
-    const endpoint = "https://formspree.io/f/mpwrdkob"; 
+    const endpoint = "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"; 
 
     try {
       const response = await fetch(endpoint, {
